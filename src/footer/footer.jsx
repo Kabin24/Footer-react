@@ -12,7 +12,7 @@ const  Footer=()=>{
         <div className="footer">
             <div className="sb_footer section_padding">
             <div className="sb_footer-links">
-                <div className="sb_footer-links-div">
+                <div className="sb_footer-links_div">
                     <h4>For Business</h4>
                     <a href="/employee">
                         <p>Employee</p>
@@ -45,7 +45,7 @@ const  Footer=()=>{
                         <p>Swing Tech</p>
                     </a>
                 </div>
-                <div  className="sb_footer-links_div"></div>
+                <div  className="sb_footer-links_div">
 
                 <h4>Company</h4>
                 <a  href="/about">
@@ -61,6 +61,7 @@ const  Footer=()=>{
                 <p>Contact</p>
                 </a>
                 </div>
+                
                 <div className="sb_footer-links_div">
                     <h4>social media</h4>
                     <div className="socialmedia">
@@ -70,15 +71,15 @@ const  Footer=()=>{
                         <p><img src = {insta} alt=""/></p>
 
                     </div>
-
-                </div>
+                    </div>
+             
                 <hr></hr>
                 <div  className="sb_footer-below">
                     <div className="sb_footer-copyright">
                     <p>
                         @{new Date().getFullYear()} CodeInn.All right reserved.
                     </p>
-                    
+                    </div>
                 </div>
                 <div className="sb_footer-below-links">
                     <a href="/terms">
